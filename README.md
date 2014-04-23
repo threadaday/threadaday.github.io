@@ -1,27 +1,28 @@
-# Prototype
+# Thread A Day
 
-This project is a global prototype that, once cloned, lets you immediately get to work.
+The official [Thread A Day](http://threadaday.github.io) website.
 
-It provides the following out of the box:
-    
-- Bootstrap
-- jQuery
-- LESS
-- Jekyll architecture
-- LiveReload
-- Gulpfile
-- Package.json
-- Bower.json
-- Gitignore
+# About
 
+## What is this?
 
-# Dependencies
+Thread A Day is a site that aims to provide meaningful discussion around one link or topic each day.
+
+### What a great idea! I'm sure you came up with it yourself.
+
+Nope! It was inspired by [this post](https://news.ycombinator.com/item?id=7617434) from Hacker News.
+
+---
+
+# Contributing
+
+## Dependencies
 
 - Gulp (`npm install -g gulp`)
 - Bower (`npm install -g bower`)
 - Jekyll (`gem install jekyll`)
 
-# Instructions
+## Instructions
 
 To build the site:
 
@@ -47,5 +48,6 @@ To package the site for deployment:
 ```bash
 
 gulp build
+jekyll build
 
 ```
