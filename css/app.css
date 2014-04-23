@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Merriweather:900);
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5776,13 +5776,14 @@ button.close {
 h1,
 h2,
 h3 {
-  font-family: 'Oswald', inherit;
+  font-family: 'Lato', inherit;
 }
 h1 {
   font-size: 3rem;
+  font-weight: 900;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #707070;
 }
 h3 {
@@ -5795,10 +5796,36 @@ code,
 pre {
   font-family: 'Lato', inherit;
 }
+nav.navbar-default {
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #aaa;
+}
+nav.navbar-default a {
+  border-bottom: 0px solid #222;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+nav.navbar-default a:hover {
+  padding-bottom: 10px;
+  border-bottom-width: 5px;
+}
+.navbar-brand {
+  font-family: 'Merriweather', inherit;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #4f4f4f !important;
+}
+.navbar-brand:hover {
+  color: #707070 !important;
+}
 html,
 body {
-  background-color: #efefef;
-  font-family: 'Lato', inherit;
+  background-color: #ffffff;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: #4f4f4f;
   font-size: 14px;
 }
@@ -5807,4 +5834,36 @@ body {
   body {
     font-size: 20px;
   }
+}
+.title {
+  font-size: 2.5rem;
+  margin-left: 10px;
+}
+.link {
+  text-align: center;
+}
+.thread {
+  margin-top: 40px;
+}
+.comments {
+  margin-top: 100px;
+}
+.prev {
+  margin-top: 32px;
+}
+.prev h2 {
+  font-size: 1.2rem;
+}
+.prev ul {
+  padding-left: 0;
+}
+.prev li {
+  list-style: none;
+}
+.prev a {
+  font-size: 0.8rem;
+}
+.prev p {
+  font-size: 0.8rem;
+  color: #aaa;
 }

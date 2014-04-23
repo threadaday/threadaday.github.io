@@ -1,18 +1,57 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Merriweather:900);
 
 @bootstrap: '../bower_components/bootstrap/less/';
 @import '@{bootstrap}/bootstrap.less';
 
 @import '_variables';
 @import '_type';
+@import '_nav';
 
 html, body {
   background-color: @site-bg;
-  font-family: @body-font;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: @dark-text;
   font-size: 14px;
 
   @media (min-width: @screen-sm-min) { 
     font-size: 20px;
+  }
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-left: 10px;
+}
+
+.link {
+  text-align: center;
+}
+
+.thread {
+  margin-top: 40px;
+}
+
+.comments {
+  margin-top: 100px;
+}
+
+.prev {
+  margin-top: 32px;
+
+  h2 {
+    font-size: 1.2rem;
+  }
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 0.8rem;
+    color: #aaa;
   }
 }

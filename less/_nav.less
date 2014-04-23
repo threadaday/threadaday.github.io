@@ -1,0 +1,29 @@
+nav.navbar-default {
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #aaa;
+
+  a {
+    border-bottom: 0px solid #222;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      padding-bottom: 10px;
+      border-bottom-width: 5px;
+    }
+  }
+}
+
+.navbar-brand {
+  font-family: @title-font;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: @dark-text !important;
+  &:hover {
+    color: @light-text !important;
+  }
+}
