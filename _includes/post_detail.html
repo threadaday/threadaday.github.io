@@ -16,11 +16,13 @@
   </div>
   <div class="col-sm-2 prev">
     <h2>Previous posts</h2>
+    <hr>
     <ul>
       {% for p in site.posts %}
         <li>
           <a href="{{ p.url }}">{{ p.thread_title }}</a>
         </li>
+        <hr>
       {% endfor %}
     </ul>
   </div>
