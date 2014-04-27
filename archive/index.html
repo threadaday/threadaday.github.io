@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="col-xs-10 col-xs-offset-1 archive">
+  <h1>All Threads</h1>
+  <hr>
+
+  {% for p in site.posts %}
+    <a href="{{ p.url }}"><h2>{{ p.thread_title }}</h2></a>
+    <p>Posted <strong>{{ p.date | date: "%D" }}</strong></p>
+    <hr>
+  {% endfor %}
+
+</div>
