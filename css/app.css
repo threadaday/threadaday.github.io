@@ -5852,7 +5852,12 @@ body {
   margin-top: 32px;
 }
 .prev h2 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+@media (min-width: 768px) {
+  .prev h2 {
+    font-size: 0.8rem;
+  }
 }
 .prev ul {
   padding-left: 0;
@@ -5861,9 +5866,17 @@ body {
   list-style: none;
 }
 .prev a {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+  .prev a {
+    font-size: 0.8rem;
+  }
 }
 .prev p {
   font-size: 0.8rem;
   color: #aaa;
+}
+.archive a > h2 {
+  color: #428bca;
 }
